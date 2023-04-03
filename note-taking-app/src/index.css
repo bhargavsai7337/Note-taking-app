@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  max-width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 14px;
+  padding-left: 14px;
+}
+
+.notes-list {
+  display: grid;
+  grid: gap 1rem;
+  grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+}
+
+.note {
+  background-color: aquamarine;
+  border-radius: 12px;
+  padding: 1.5rem;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.note-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
