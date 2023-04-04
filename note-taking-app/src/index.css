@@ -12,12 +12,27 @@ code {
     monospace;
 }
 
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dark-mode{
+  background-color: black;
+}
+
+.dark-mode h1{
+  color: white;
+}
+
 .container {
   max-width: 950px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 14px;
   padding-left: 14px;
+  min-height: 100vh;
 }
 
 .notes-list {
@@ -62,6 +77,7 @@ textarea:focus{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  white-space: pre-wrap;
 }
 
 .note-footer {
@@ -70,4 +86,25 @@ textarea:focus{
   justify-content: space-between;
 }
 
+.delete-icon {
+  cursor: pointer;  
+}
+
+.search{
+  display:flex;
+  align-items: center;
+  background-color: rgb(165, 161, 156);
+  border-radius: 10px;
+  padding: 6px;
+  margin-bottom: 1.6em;
+}
+
+.search input {
+  border: none;
+  background-color: rgb(165, 161, 156);
+}
+
+.search input:focus {
+  outline: none;
+}
 
