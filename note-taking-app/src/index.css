@@ -26,6 +26,34 @@ code {
   grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
 }
 
+.note.new{
+  background-color: beige;
+}
+
+textarea{
+  border:none;
+  resize: none;
+  background-color: beige;
+}
+textarea:focus{
+  outline: none;
+  border-radius: 18px;
+  pad: 6px 11px 6px 11px;
+}
+
+.save{
+  background-color: antiquewhite;
+  border: none;
+
+}
+
+.save:hover{
+  background-color: rgb(127, 255, 168);
+  cursor: pointer;
+}
+
+
+
 .note {
   background-color: aquamarine;
   border-radius: 12px;
